@@ -32,13 +32,17 @@ html, body{
     padding: 20px 30px;
 }
 
+#lnav i:hover{
+    color: orange;
+}
+
 #lnavr{
     display: flex;
     align-items: center;
 }
 
 #lnavr i{
-    color: royalblue;
+    color: #000;
 
 }
 
@@ -48,6 +52,10 @@ html, body{
     color: black;
     font-weight: 500;
     font-size: 15px;
+}
+
+#lnavr a:hover{
+    color: orange;
 }
 
 #left #textcentre{
@@ -64,7 +72,7 @@ html, body{
 
 #textcentre p{
     opacity: .6;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -78,10 +86,13 @@ html, body{
     padding-bottom: 5px;
     font-weight: 600;
     opacity: .6;
-   
-    
-
 }
+
+#textcentre a:hover{
+    color: orange;
+}
+
+
 
 #right{
     height: 100%;
